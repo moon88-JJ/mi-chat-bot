@@ -26,7 +26,7 @@ async def fix_header_bytes(request: Request, call_next):
 
 # ✅ 初始化 Gemini 客户端
 client = OpenAI(
-    api_key=os.getenv("GOOGLE_API_KEY"),
+    api_key=os.getenv("API_KEY"),
     base_url="https://api.xiaomimimo.com/v1"
 )
 
